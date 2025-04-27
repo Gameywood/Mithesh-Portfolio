@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Hacked-KerX';
+    src: url('./assets/fonts/Hacked-KerX.ttf') format('truetype');
+  }
+  
+  .custom-Hacked-KerX {
+    font-family: 'Hacked-KerX', sans-serif;
+  }
+  
+
+  @font-face {
+    font-family: 'SFPRODISPLAYBLACKITALIC';
+    src: url('/src/assets/fonts/SFPRODISPLAYBLACKITALIC.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  .custom-SFPRODISPLAYBLACKITALIC{
+    font-family: 'SFPRODISPLAYBLACKITALIC', sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'SFPRODISPLAYBOLD';
+    src: url('/src/assets/fonts/SFPRODISPLAYBOLD.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .custom-SFPRODISPLAYBOLD{
+    font-family: 'SFPRODISPLAYBOLD', sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'SFPRODISPLAYHEAVYITALIC';
+    src: url('/src/assets/fonts/SFPRODISPLAYHEAVYITALIC.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .custom-SFPRODISPLAYHEAVYITALIC{
+    font-family: 'SFPRODISPLAYHEAVYITALIC', sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'SFPRODISPLAYMEDIUM';
+    src: url('/src/assets/fonts/SFPRODISPLAYMEDIUM.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  .custom-SFPRODISPLAYMEDIUM{
+    font-family: 'SFPRODISPLAYMEDIUM', sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'MyFont';
+    src: url('/src/assets/fonts/MyFont-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'MyFont';
+    src: url('/src/assets/fonts/MyFont-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'MyFont';
+    src: url('/src/assets/fonts/MyFont-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
