@@ -46,7 +46,7 @@ const AboutPage = () => {
             </p>
 
             <a
-              href="./src/assets/pdf/Mithesh_Shetty.pdf" 
+              href="./src/assets/pdf/Mithesh Portfolio.pdf" 
               download
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition"
             >

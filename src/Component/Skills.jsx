@@ -15,7 +15,7 @@ const gradients = [
 const skills = [
   { name: "HTML", img: "html.jpg" },
   { name: "Tailwind CSS", img: "TailwindCSS.jpg" },
-  { name: "React.js", img: "react.jpg" },
+  { name: "React.js", img: "React.jpg" },
   { name: "Node.js", img: "nodejs.jpg" },
   { name: "MongoDB", img: "MongoDB.jpg" },
   { name: "JavaScript", img: "JavaScript.jpg" },
@@ -53,7 +53,7 @@ const Skill = () => {
               className={`flex flex-col items-center ${gradients[index % gradients.length]} backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:scale-[1.03] transition-transform duration-300`}
             >
               <img
-                src={`/public/images/${skill.img}`}
+                src={`images/${skill.img}`}
                 alt={skill.name}
                 className="w-100% h-fix  p-3 m-1   rounded-[40px]"
               />
