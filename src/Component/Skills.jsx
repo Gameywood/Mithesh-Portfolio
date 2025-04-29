@@ -53,7 +53,7 @@ const Skill = () => {
               className={`flex flex-col items-center ${gradients[index % gradients.length]} backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:scale-[1.03] transition-transform duration-300`}
             >
               <img
-                src={`/public/${skill.img}`}
+                src={`/public/images/${skill.img}`}
                 alt={skill.name}
                 className="w-100% h-fix  p-3 m-1   rounded-[40px]"
               />
