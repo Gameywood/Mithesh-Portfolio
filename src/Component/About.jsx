@@ -50,7 +50,7 @@ const AboutPage = () => {
               download
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition"
             >
-              Download CV
+              Download Resume
             </a>
           </div>
         </div>
