@@ -6,7 +6,7 @@ const AboutPage = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div className=" mb-30 flex flex-col items-center justify-start px-6 ">
+    <div className=" mb-10 flex flex-col items-center justify-start px-6 ">
       {/* Glassmorphism Background Section */}
       <div className="w-[98vw] max-w-8xl  bg-gradient-to-b from-purple-900/60 via-violet-950/60 to-gray-950/60 
       rounded-3xl p-10 shadow-[0_8px_100px_0_rgba(0,0,0,5)] backdrop-blur-md border border-white/70 z-10">
@@ -34,9 +34,9 @@ const AboutPage = () => {
 
           <div className="w-full md:w-[90%] lg:w-full bg-indigo-900/60 bg-opacity-30 backdrop-blur-lg p-4 sm:p-6 rounded-xl shadow-lg border border-white/50">
             <p className="text-white text-base sm:text-lg md:text-2xl mb-6 leading-relaxed  custom-SFPRODISPLAYMEDIUM">
-              You want to know more about me.Hi, I'm Mithesh — a passionate Full Stack Web Developer who loves turning ideas into interactive digital experiences.
+              Hi, I'm Mithesh — a passionate Full Stack Web Developer who loves turning ideas into interactive digital experiences.
 
-              With hands-on experience building scalable web apps , I specialize in crafting both frontend and backend solutions. Some of my notable projects include a **Twitter Clone**, where I implemented real-time posts, likes, and user auth  and Ammari Shoes, a sleek eCommerce site showcasing  product listings and various other UI features
+              With hands-on experience building scalable web apps , I specialize in crafting both frontend and backend solutions. Some of my notable projects include a Twitter Clone, where I implemented real-time posts, likes, and user auth  and Ammari Shoes, a sleek eCommerce site showcasing  product listings and various other UI features
 
               From pixel-perfect UIs to robust APIs, I enjoy bringing full-fledged applications to life using technologies like React, Node.js,Express Js, MongoDB, and Tailwind CSS.
 

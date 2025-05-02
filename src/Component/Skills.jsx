@@ -3,22 +3,24 @@ import { motion, useInView } from "framer-motion";
 
 // Array of gradients
 const gradients = [
-  "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
-  "bg-gradient-to-r from-green-400 via-blue-500 to-purple-600",
+  
   "bg-gradient-to-r from-indigo-500 via-blue-500 to-blue-700",
   "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500",
   "bg-gradient-to-r from-yellow-200 via-green-500 to-green-500",
   "bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-600",
+  "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500",
+  "bg-gradient-to-r from-green-400 via-blue-500 to-purple-600",
 ];
 
 // Array of skills with image filenames
 const skills = [
-  { name: "HTML", img: "html.jpg" },
-  { name: "Tailwind CSS", img: "TailwindCSS.jpg" },
+  
   { name: "React.js", img: "React.jpg" },
   { name: "Node.js", img: "nodejs.jpg" },
   { name: "MongoDB", img: "MongoDB.jpg" },
   { name: "JavaScript", img: "JavaScript.jpg" },
+  { name: "HTML", img: "html.jpg" },
+  { name: "Tailwind CSS", img: "TailwindCSS.jpg" },
 ];
 
 const Skill = () => {
