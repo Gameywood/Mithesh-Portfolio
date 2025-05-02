@@ -20,7 +20,7 @@ function App() {
 
       <div id='home-section' className="pt-10">
 
-        <section className="min-h-screen custom-SFPRODISPLAYBOLD font-light flex flex-col justify-center sm:justify-end px-4 pt-70   pb-1 sm:px-10 md:px-20 sm:pt-24 sm:pb-24 md:pb-32">
+        <section className="min-h-screen custom-SFPRODISPLAYBOLD font-light flex flex-col justify-center sm:justify-end px-4 pt-35   pb-1 sm:px-10 md:px-20 sm:pt-24 sm:pb-24 md:pb-22">
 
 
 
